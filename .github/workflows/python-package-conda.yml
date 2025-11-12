@@ -30,4 +30,5 @@ jobs:
 
       - name: Run Python script
         run: |
+          export SDL_AUDIODRIVER=dummy
           python dinasour/dinasour.py
